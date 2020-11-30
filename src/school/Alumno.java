@@ -1,5 +1,5 @@
 package school;
 
-public class Alumno {
-
+public class Alumno extends Persona {
+	private
 }
