@@ -5,11 +5,13 @@ public class Profesor extends Persona {
 	private String materia;
 	
 	
-	public Profesor() {
-		super();
-		super.setEdad(MetodosSueltos.generaNumeroAleatorio(25, 50));
-		materia = Constantes.MATERIAS[MetodosSueltos.generaNumeroAleatorio(0, 2)];
-	}
+	public Profesor(){
+	       super(); //Llama al constructor padre
+	        
+	       super.setEdad(MetodosSueltos.generaNumeroAleatorio(25,50)); //llama al metodo padre
+	        
+	       materia=Constantes.MATERIAS[MetodosSueltos.generaNumeroAleatorio(0,2)];
+	    }
 
 
 	public String getMateria() {
