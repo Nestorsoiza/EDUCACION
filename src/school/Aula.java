@@ -1,6 +1,5 @@
 package school;
 
-import java.security.PublicKey;
 
 public class Aula {
 	private int id;
@@ -55,9 +54,9 @@ public class Aula {
          for(int i=0;i<alumnos.length;i++){
             
            //Comprobamos si el alumno está aprobado
-           if(alumnos[i].getNota()>=5){
+           if(alumnos[i].getNota() >= 5){
                //Segun el sexo, aumentará uno o otro
-               if(alumnos[i].getSexo()=='H'){
+               if(alumnos[i].getSexo() ==' H'){
                    chicosApro++;
                }else{
                    chicasApro++;
@@ -69,7 +68,8 @@ public class Aula {
              
         }
           
-        System.out.println("Hay "+chicosApro+" chicos y "+chicasApro+" chicas aprobados/as");
+        System.out.println("Hay " + chicosApro + " chicos y "
+        +chicasApro + " chicas aprobados/as");
          
     }
      
