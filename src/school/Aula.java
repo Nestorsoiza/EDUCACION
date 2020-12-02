@@ -56,7 +56,7 @@ public class Aula {
            //Comprobamos si el alumno está aprobado
            if(alumnos[i].getNota() >= 5){
                //Segun el sexo, aumentará uno o otro
-               if(alumnos[i].getSexo() ==' H'){
+               if(alumnos[i].getSexo() == 'H'){
                    chicosApro++;
                }else{
                    chicasApro++;
